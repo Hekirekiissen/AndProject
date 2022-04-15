@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.cocktail.SmoothBackgroundView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_question"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:padding="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:text="❔"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_question"
+        />/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:fontFamily="@font/letter"
+        android:text="@string/title"
+        />
+
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/gung"
+        android:background="@drawable/button_round"
+        android:textColor="@color/White"
+        android:text="시작하기"
+        android:textSize="25dp"
+        android:padding="20dp"/>
+
+</LinearLayout>
+
+</FrameLayout>
